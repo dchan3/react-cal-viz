@@ -3,7 +3,7 @@ import { render, configure, shallow } from 'enzyme';
 import { expect } from 'chai';
 import { convert } from '../lib/util';
 import { MonthView } from '../lib/components';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from 'enzyme-adapter-react-15';
 
 configure({ adapter: new Adapter() });
 

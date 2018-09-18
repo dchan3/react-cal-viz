@@ -1,3 +1,3 @@
 module.exports = {
-  MonthView: require('./lib/components/').MonthView
+  MonthView: require('./lib/components').MonthView
 }

@@ -1,3 +1,5 @@
+import { MonthView } from './lib/components'
+
 module.exports = {
-  MonthView: require('./lib/components').MonthView
-}
+  MonthView
+};

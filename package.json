@@ -1,6 +1,6 @@
 {
   "name": "react-cal-viz",
-  "version": "0.0.1-alpha.8",
+  "version": "0.0.1-alpha.9",
   "description": "Calendar library for React by dchan3",
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
     "eslint-plugin-react": "^7.8.2",
     "eslint-watch": "^4.0.2",
     "mocha": "^5.2.0",
-    "react": "^15.5.0",
-    "react-dom": "^15.5.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
     "styled-components": "^3.4.8"
   },

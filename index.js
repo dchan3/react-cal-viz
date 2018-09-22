@@ -1,5 +1,1 @@
-import { MonthView } from './lib/components'
-
-module.exports = {
-  MonthView
-};
+export { MonthView } from './lib/components';

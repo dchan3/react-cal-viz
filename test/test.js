@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, configure, shallow } from 'enzyme';
 import { expect } from 'chai';
+import MonthView from '../lib/components/MonthView/MonthView.js';
 import { convert } from '../lib/util';
-import { MonthView } from '../lib/components';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });

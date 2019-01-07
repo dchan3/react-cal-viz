@@ -2,7 +2,8 @@ import React from 'react';
 import { render, configure, shallow } from 'enzyme';
 import { expect } from 'chai';
 import MonthView from '../lib/components/MonthView/MonthView.js';
-import { convert } from '../lib/util';
+import convert from '../lib/util/convert';
+import keySwap from '../lib/util/keyswap';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
@@ -38,5 +39,13 @@ describe('MonthView Tests', function() {
     expect(wrapper.find('.week')).to.have.lengthOf.at.least(4);
     expect(wrapper.find('.day')).to.have.lengthOf.at.least(28);
     done();
+  });
+});
+
+describe('Key Swap function tests', function() {
+  it('works correctly', function() {
+    const obj = { location: 'The Hub', time: '7:00 PM', event: "My Recital" },
+      expected = { venue: 'The Hub', start: '7:00 PM', event: "My Recital"};
+    expect(keySwap(obj, { location: 'venue', time: 'start'})).to.deep.equal(expected);
   });
 });

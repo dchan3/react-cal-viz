@@ -11,7 +11,7 @@
   "scripts": {
     "test": "mocha --require @babel/register test/test.js",
     "prepare": "npm run build",
-    "build": "babel lib -o dist/index.js"
+    "build": "babel lib -d dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

@@ -1,7 +1,7 @@
 {
   "name": "react-cal-viz",
   "version": "0.3.2",
-  "description": "Calendar library for React by dchan3",
+  "description": "Minimal dependency calendar library for React by dchan3",
   "repository": {
     "type": "git",
     "url": "https://github.com/dchan3/react-cal-viz.git"
@@ -42,8 +42,5 @@
     "react-dom": "^16.9.0",
     "react-test-renderer": "^16.9.0",
     "styled-components": "^4.3.2"
-  },
-  "dependencies": {
-    "moment": "^2.24.0"
   }
 }

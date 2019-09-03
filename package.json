@@ -1,6 +1,6 @@
 {
   "name": "react-cal-viz",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Minimal dependency calendar library for React by dchan3",
   "repository": {
     "type": "git",
